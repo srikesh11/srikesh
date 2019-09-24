@@ -3,7 +3,7 @@
 % 'V' (kmph) as inputs and provides the ideal PWM value for left motor    %                                                                         %
 % Length of the car (~wheelbase) is taken as L = 2100 mm = 2.1 m          %
 % Rear Track of the car is taken to be d_r = 715 mm = 0.715 m             %
-% Radius of the tire is taken as r = (20/2) in = 0.254 m     %
+% Radius of the tire is taken as r = (20/2) in = 0.254 m                  %
 % All values are according to the feasibility report for phase 1          %
 %                                                                         %
 % 1, 2, 3 and 4 represent left front wheel, right front wheel,            %
