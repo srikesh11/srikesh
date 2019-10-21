@@ -4,9 +4,10 @@ Ke = 1.278;
 
 V = 72; %Voltage
 T = 0:100; %Braking Torque
-I_max = 40;
+I_max = 41.67;
 I = 0;
 P = 0;
+P_max = 3000;
 In = zeros(1,length(T));
 Vn = zeros(1,length(T));
 Pn = zeros(1,length(T));
@@ -14,7 +15,7 @@ Nn = zeros(1,length(T));
 
 for i=1:length(T)
     if(I>I_max) %limiting the voltage if exceeds I_max
-        V = P/I; 
+        V = P_max/I; 
     end
     N = ((V/Ke) - (T(i)*R)/(Kt*Ke))*(30/pi);
 
